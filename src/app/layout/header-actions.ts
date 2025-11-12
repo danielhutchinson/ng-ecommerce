@@ -6,18 +6,48 @@ import { MatIcon } from '@angular/material/icon';
   selector: 'app-header-actions',
   imports: [MatIconButton, MatIcon],
   template: `
-    <div class="flex items-center gap-6">
-      <div class="flex flex-col items-center">
-        <button matIconButton aria-label="Shortlist"><mat-icon>favorite</mat-icon></button>
-        <span class="text-xs text-gray-600 font-bold">Shortlist</span>
+    <nav
+      class="flex items-center gap-6"
+      role="navigation"
+      aria-label="User account and shortlist actions"
+    >
+      <div class="action-item">
+        <button
+          matIconButton
+          aria-label="View your shortlist of saved vehicles"
+          aria-describedby="shortlist-description"
+          class="focus-ring"
+          type="button"
+        >
+          <mat-icon aria-hidden="true">favorite</mat-icon>
+        </button>
+        <span id="shortlist-description" class="text-xs text-gray-600 font-bold" role="text">
+          Shortlist
+        </span>
       </div>
 
-      <div class="flex flex-col items-center">
-        <button matIconButton aria-label="Profile"><mat-icon>person</mat-icon></button>
-        <span class="text-xs text-gray-600 font-bold">Profile</span>
+      <div class="action-item">
+        <button
+          matIconButton
+          aria-label="Access your profile and account settings"
+          aria-describedby="profile-description"
+          class="focus-ring"
+          type="button"
+        >
+          <mat-icon aria-hidden="true">person</mat-icon>
+        </button>
+        <span id="profile-description" class="text-xs text-gray-600 font-bold" role="text">
+          Profile
+        </span>
       </div>
-    </div>
+    </nav>
   `,
-  styles: ``,
+  styles: `
+    .action-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  `,
 })
 export class HeaderActions {}
