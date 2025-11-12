@@ -24,35 +24,6 @@ import { HeaderActions } from './header-actions';
     </mat-toolbar>
   `,
   styles: `
-    .brand-link:focus {
-      outline: 2px solid #3b82f6;
-      outline-offset: 2px;
-    }
-    
-    .text-inherit {
-      color: inherit;
-    }
-    
-    .no-underline {
-      text-decoration: none;
-    }
-    
-    .focus\\:outline-none:focus {
-      outline: 2px solid transparent;
-      outline-offset: 2px;
-    }
-    
-    .focus\\:ring-2:focus {
-      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
-    }
-    
-    .focus\\:ring-offset-2:focus {
-      box-shadow: 0 0 0 2px white, 0 0 0 4px rgba(59, 130, 246, 0.5);
-    }
-    
-    .rounded {
-      border-radius: 0.25rem;
-    }
   `,
 })
 export class Header {}
