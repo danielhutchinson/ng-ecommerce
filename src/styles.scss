@@ -12,6 +12,12 @@ html {
       density: 0,
     )
   );
+
+  @include mat.toolbar-overrides(
+    (
+      container-background-color: white,
+    )
+  );
 }
 
 body {
