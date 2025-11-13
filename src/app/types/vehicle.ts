@@ -1,0 +1,42 @@
+export type VehicleGroup = {
+  vehicleId: string;
+  vehicleSpecification: VehicleSpecification;
+  physicalVehicle: VehiclePhysicalInformation;
+  marketingInformation: VehicleMarketingInformation;
+  registrationInformation: VehicleRegistrationInformation;
+  retailer: Retailer;
+};
+
+export type VehiclePhysicalInformation = {
+  images: string[];
+  mileage: number;
+  onTheRoadPrice: number;
+};
+
+export type VehicleSpecification = {
+  derivative: string;
+  description: string;
+  manufacturer: string;
+  model: string;
+  modelYear: number;
+  variant: string;
+  bodyType: string;
+  fuelType: string;
+  transmission: string;
+  engineSizeCc: number;
+  powerBhp: number;
+  color: string;
+};
+
+export type VehicleMarketingInformation = {};
+
+export type VehicleRegistrationInformation = {
+  registrationNumber: string;
+  dateOfFirstRegistration: Date;
+  countryCodeOfRegistration: string;
+};
+
+export type Retailer = {
+    name: string;
+    address: string;
+};

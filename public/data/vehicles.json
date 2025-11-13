@@ -1,0 +1,642 @@
+[
+  {
+    "vehicleId": "VW2020GOLF_R_01",
+    "vehicleSpecification": {
+      "derivative": "R 2.0 TSI 4MOTION",
+      "description": "High-performance all-wheel-drive hot-hatch.",
+      "manufacturer": "Volkswagen",
+      "model": "Golf",
+      "modelYear": 2020,
+      "variant": "Mk7.5",
+      "bodyType": "Hatchback",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 1984,
+      "powerBhp": 300,
+      "color": "Lapiz Blue Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 19800,
+      "onTheRoadPrice": 34995.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "GB20VWR",
+      "dateOfFirstRegistration": "2020-05-18T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Breeze Volkswagen Poole",
+      "address": "Yarrow Road, Poole, Dorset, BH12 5QZ"
+    }
+  },
+  {
+    "vehicleId": "VW2020TIGUAN_02",
+    "vehicleSpecification": {
+      "derivative": "SEL Premium R-Line 2.0 TSI",
+      "description": "Top-tier trim level mid-size SUV with premium features.",
+      "manufacturer": "Volkswagen",
+      "model": "Tiguan",
+      "modelYear": 2020,
+      "variant": "Mk2",
+      "bodyType": "SUV",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (Tiptronic)",
+      "engineSizeCc": 1984,
+      "powerBhp": 184,
+      "color": "Deep Black Pearl Effect"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 21300,
+      "onTheRoadPrice": 33750.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "DE20TGS",
+      "dateOfFirstRegistration": "2020-09-01T00:00:00.000Z",
+      "countryCodeOfRegistration": "DE"
+    },
+    "retailer": {
+      "name": "Autohaus Wolfsburg",
+      "address": "Berliner Ring 2, 38446 Wolfsburg, DE"
+    }
+  },
+  {
+    "vehicleId": "VW2020ATLAS_03",
+    "vehicleSpecification": {
+      "derivative": "SE w/Technology V6",
+      "description": "Large three-row SUV for the US market.",
+      "manufacturer": "Volkswagen",
+      "model": "Atlas",
+      "modelYear": 2020,
+      "variant": "ES",
+      "bodyType": "SUV",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (Tiptronic)",
+      "engineSizeCc": 3598,
+      "powerBhp": 276,
+      "color": "Pure White"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 14500,
+      "onTheRoadPrice": 39310.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "US20ATS",
+      "dateOfFirstRegistration": "2020-07-20T00:00:00.000Z",
+      "countryCodeOfRegistration": "US"
+    },
+    "retailer": {
+      "name": "Peoria Volkswagen",
+      "address": "8425 W Bell Rd, Peoria, AZ 85382, US"
+    }
+  },
+  {
+    "vehicleId": "VW2020JETTA_04",
+    "vehicleSpecification": {
+      "derivative": "GLI Autobahn 2.0T",
+      "description": "Performance sedan based on the Golf GTI platform.",
+      "manufacturer": "Volkswagen",
+      "model": "Jetta",
+      "modelYear": 2020,
+      "variant": "A7",
+      "bodyType": "Sedan",
+      "fuelType": "Petrol",
+      "transmission": "Manual",
+      "engineSizeCc": 1984,
+      "powerBhp": 228,
+      "color": "Platinum Grey Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 11200,
+      "onTheRoadPrice": 28595.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "US20JGL",
+      "dateOfFirstRegistration": "2020-03-10T00:00:00.000Z",
+      "countryCodeOfRegistration": "US"
+    },
+    "retailer": {
+      "name": "Jim Ellis Volkswagen Atlanta",
+      "address": "5901 Peachtree Blvd, Atlanta, GA 30341, US"
+    }
+  },
+  {
+    "vehicleId": "VW2020PASSAT_05",
+    "vehicleSpecification": {
+      "derivative": "R-Line 2.0 TSI",
+      "description": "Redesigned mid-size sedan with a sporty look.",
+      "manufacturer": "Volkswagen",
+      "model": "Passat",
+      "modelYear": 2020,
+      "variant": "NMS",
+      "bodyType": "Sedan",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (Tiptronic)",
+      "engineSizeCc": 1984,
+      "powerBhp": 174,
+      "color": "Aurora Red Chroma"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 18200,
+      "onTheRoadPrice": 26990.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "US20PSR",
+      "dateOfFirstRegistration": "2020-06-10T00:00:00.000Z",
+      "countryCodeOfRegistration": "US"
+    },
+    "retailer": {
+      "name": "Herb Chambers VW of Manchester",
+      "address": "153 Hooksett Rd, Manchester, NH 03104, US"
+    }
+  },
+  {
+    "vehicleId": "VW2020ARTEON_06",
+    "vehicleSpecification": {
+      "derivative": "SEL Premium R-Line 2.0 TSI",
+      "description": "Flagship fastback sedan with luxury and sporty styling.",
+      "manufacturer": "Volkswagen",
+      "model": "Arteon",
+      "modelYear": 2020,
+      "variant": "Mk1",
+      "bodyType": "Fastback",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 1984,
+      "powerBhp": 268,
+      "color": "Pyrite Silver Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 14100,
+      "onTheRoadPrice": 42500.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "GB20ART",
+      "dateOfFirstRegistration": "2020-03-22T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Inchcape Volkswagen Chelmsford",
+      "address": "Broomfield Road, Chelmsford, Essex, CM1 7EW"
+    }
+  },
+  {
+    "vehicleId": "VW2020TROC_07",
+    "vehicleSpecification": {
+      "derivative": "Design 1.0 TSI",
+      "description": "Compact urban crossover with a small, efficient petrol engine.",
+      "manufacturer": "Volkswagen",
+      "model": "T-Roc",
+      "modelYear": 2020,
+      "variant": "Mk1",
+      "bodyType": "SUV",
+      "fuelType": "Petrol",
+      "transmission": "Manual",
+      "engineSizeCc": 999,
+      "powerBhp": 115,
+      "color": "Ravenna Blue Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 17800,
+      "onTheRoadPrice": 19990.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "GB20TRC",
+      "dateOfFirstRegistration": "2020-08-05T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Sinclair Volkswagen Swansea",
+      "address": "Langdon Road, Swansea, SA1 8AP"
+    }
+  },
+  {
+    "vehicleId": "VW2020TOUAREG_08",
+    "vehicleSpecification": {
+      "derivative": "SEL Tech 3.0 V6 TDI 4Motion",
+      "description": "Luxury full-size SUV with a powerful V6 diesel engine and AWD.",
+      "manufacturer": "Volkswagen",
+      "model": "Touareg",
+      "modelYear": 2020,
+      "variant": "CR7",
+      "bodyType": "SUV",
+      "fuelType": "Diesel",
+      "transmission": "Automatic (Tiptronic)",
+      "engineSizeCc": 2967,
+      "powerBhp": 286,
+      "color": "Silicon Grey Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 32000,
+      "onTheRoadPrice": 48500.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "DE20LUX",
+      "dateOfFirstRegistration": "2020-07-17T00:00:00.000Z",
+      "countryCodeOfRegistration": "DE"
+    },
+    "retailer": {
+      "name": "J & F Group",
+      "address": "12 Mayfield Link, Birmingham, West Midlands, B14 7SA"
+    }
+  },
+  {
+    "vehicleId": "VW2020POLO_09",
+    "vehicleSpecification": {
+      "derivative": "SE 1.0 TSI",
+      "description": "Supermini hatchback, economical and well-equipped.",
+      "manufacturer": "Volkswagen",
+      "model": "Polo",
+      "modelYear": 2020,
+      "variant": "Mk6",
+      "bodyType": "Hatchback",
+      "fuelType": "Petrol",
+      "transmission": "Manual",
+      "engineSizeCc": 999,
+      "powerBhp": 95,
+      "color": "Reef Blue Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 8500,
+      "onTheRoadPrice": 14500.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "FR20POL",
+      "dateOfFirstRegistration": "2020-01-20T00:00:00.000Z",
+      "countryCodeOfRegistration": "FR"
+    },
+    "retailer": {
+      "name": "Listers Volkswagen Coventry",
+      "address": "Quinton Road, Coventry, West Midlands, CV1 2QJ"
+    }
+  },
+  {
+    "vehicleId": "VW2020TCROSS_10",
+    "vehicleSpecification": {
+      "derivative": "SE 1.0 TSI",
+      "description": "Subcompact SUV, slightly smaller than the T-Roc.",
+      "manufacturer": "Volkswagen",
+      "model": "T-Cross",
+      "modelYear": 2020,
+      "variant": "C11",
+      "bodyType": "SUV",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 999,
+      "powerBhp": 115,
+      "color": "Energetic Orange Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 11500,
+      "onTheRoadPrice": 21500.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "IT20TCR",
+      "dateOfFirstRegistration": "2020-04-15T00:00:00.000Z",
+      "countryCodeOfRegistration": "IT"
+    },
+    "retailer": {
+      "name": "Autosalone Italia",
+      "address": "Via Milano 1, 20121 Milano, IT"
+    }
+  },
+  {
+    "vehicleId": "VW2020ID3_11",
+    "vehicleSpecification": {
+      "derivative": "1st Edition Pro Performance",
+      "description": "Fully electric hatchback, launch edition.",
+      "manufacturer": "Volkswagen",
+      "model": "ID.3",
+      "modelYear": 2020,
+      "variant": "E11",
+      "bodyType": "Hatchback",
+      "fuelType": "Electric",
+      "transmission": "Automatic (Single Speed)",
+      "engineSizeCc": 0,
+      "powerBhp": 204,
+      "color": "Moonstone Grey"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 8900,
+      "onTheRoadPrice": 37990.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "DE20ID3",
+      "dateOfFirstRegistration": "2020-10-20T00:00:00.000Z",
+      "countryCodeOfRegistration": "DE"
+    },
+    "retailer": {
+      "name": "E-Mobility Center Berlin",
+      "address": "Am Nordufer 20, 13351 Berlin, DE"
+    }
+  },
+  {
+    "vehicleId": "VW2020ID4_12",
+    "vehicleSpecification": {
+      "derivative": "First Edition Pro Performance",
+      "description": "Fully electric SUV, launch edition.",
+      "manufacturer": "Volkswagen",
+      "model": "ID.4",
+      "modelYear": 2020,
+      "variant": "E21",
+      "bodyType": "SUV",
+      "fuelType": "Electric",
+      "transmission": "Automatic (Single Speed)",
+      "engineSizeCc": 0,
+      "powerBhp": 204,
+      "color": "Glacier White Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 12200,
+      "onTheRoadPrice": 40995.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "NL20ID4",
+      "dateOfFirstRegistration": "2020-12-01T00:00:00.000Z",
+      "countryCodeOfRegistration": "NL"
+    },
+    "retailer": {
+      "name": "Pon Dealer Groep",
+      "address": "Oude Haagseweg 10, 2521 AA Den Haag, NL"
+    }
+  },
+  {
+    "vehicleId": "VW2020TIGUANALL_13",
+    "vehicleSpecification": {
+      "derivative": "Allspace SE Nav 2.0 TDI",
+      "description": "7-seater long-wheelbase SUV with a diesel engine.",
+      "manufacturer": "Volkswagen",
+      "model": "Tiguan Allspace",
+      "modelYear": 2020,
+      "variant": "BW2",
+      "bodyType": "SUV",
+      "fuelType": "Diesel",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 1968,
+      "powerBhp": 150,
+      "color": "Indium Grey Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 25500,
+      "onTheRoadPrice": 27990.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "GB20ALL",
+      "dateOfFirstRegistration": "2020-03-05T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Sytner Volkswagen Wakefield",
+      "address": "Wrenthorpe Road, Wakefield, WF1 2EF"
+    }
+  },
+  {
+    "vehicleId": "VW2020GOLFGTI_14",
+    "vehicleSpecification": {
+      "derivative": "GTI SE 2.0 TSI",
+      "description": "Iconic performance hatchback with a great balance of power and practicality.",
+      "manufacturer": "Volkswagen",
+      "model": "Golf",
+      "modelYear": 2020,
+      "variant": "Mk7.5",
+      "bodyType": "Hatchback",
+      "fuelType": "Petrol",
+      "transmission": "Manual",
+      "engineSizeCc": 1984,
+      "powerBhp": 220,
+      "color": "Pure Grey"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 17000,
+      "onTheRoadPrice": 25500.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "US20GTI",
+      "dateOfFirstRegistration": "2020-04-01T00:00:00.000Z",
+      "countryCodeOfRegistration": "US"
+    },
+    "retailer": {
+      "name": "Champion VW of Fort Lauderdale",
+      "address": "600 S Federal Hwy, Fort Lauderdale, FL 33301, US"
+    }
+  },
+  {
+    "vehicleId": "VW2020JETTA_15",
+    "vehicleSpecification": {
+      "derivative": "R-Line 1.4 TSI",
+      "description": "Mid-range sedan trim with sporty R-Line styling accents.",
+      "manufacturer": "Volkswagen",
+      "model": "Jetta",
+      "modelYear": 2020,
+      "variant": "A7",
+      "bodyType": "Sedan",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (Tiptronic)",
+      "engineSizeCc": 1395,
+      "powerBhp": 147,
+      "color": "Silk Blue Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 15800,
+      "onTheRoadPrice": 22995.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "US20JET",
+      "dateOfFirstRegistration": "2020-01-25T00:00:00.000Z",
+      "countryCodeOfRegistration": "US"
+    },
+    "retailer": {
+      "name": "VW Southtowne",
+      "address": "11000 S Jordan Gateway, South Jordan, UT 84095, US"
+    }
+  },
+  {
+    "vehicleId": "VW2020ATLASCS_16",
+    "vehicleSpecification": {
+      "derivative": "SEL 3.6 V6 4Motion",
+      "description": "Two-row coupe-style version of the Atlas SUV.",
+      "manufacturer": "Volkswagen",
+      "model": "Atlas Cross Sport",
+      "modelYear": 2020,
+      "variant": "CS",
+      "bodyType": "SUV",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (Tiptronic)",
+      "engineSizeCc": 3598,
+      "powerBhp": 276,
+      "color": "Teramont Black Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 16500,
+      "onTheRoadPrice": 38300.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "US20ACS",
+      "dateOfFirstRegistration": "2020-08-15T00:00:00.000Z",
+      "countryCodeOfRegistration": "US"
+    },
+    "retailer": {
+      "name": "Prestige Volkswagen",
+      "address": "427 S Main St, Turnersville, NJ 08012, US"
+    }
+  },
+  {
+    "vehicleId": "VW2020PASSAT_17",
+    "vehicleSpecification": {
+      "derivative": "GTE 1.4 TSI Plug-in Hybrid",
+      "description": "Plug-in hybrid saloon combining petrol and electric power.",
+      "manufacturer": "Volkswagen",
+      "model": "Passat",
+      "modelYear": 2020,
+      "variant": "B8",
+      "bodyType": "Saloon",
+      "fuelType": "Hybrid (PHEV)",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 1395,
+      "powerBhp": 218,
+      "color": "Atlantic Blue Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 16500,
+      "onTheRoadPrice": 30500.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "GB20PHE",
+      "dateOfFirstRegistration": "2020-09-19T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Lookers Volkswagen Preston",
+      "address": "Blackpool Road, Preston, PR2 2QE"
+    }
+  },
+  {
+    "vehicleId": "VW2020TROCCAB_18",
+    "vehicleSpecification": {
+      "derivative": "Design 1.5 TSI Cabriolet",
+      "description": "Convertible version of the T-Roc compact SUV.",
+      "manufacturer": "Volkswagen",
+      "model": "T-Roc Cabriolet",
+      "modelYear": 2020,
+      "variant": "AC7",
+      "bodyType": "Convertible",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 1498,
+      "powerBhp": 150,
+      "color": "Kings Red Metallic"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 5800,
+      "onTheRoadPrice": 28990.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "ES20CVT",
+      "dateOfFirstRegistration": "2020-07-01T00:00:00.000Z",
+      "countryCodeOfRegistration": "ES"
+    },
+    "retailer": {
+      "name": "Concesionario Volkswagen Madrid",
+      "address": "Calle de Alcalá 447, 28027 Madrid, ES"
+    }
+  },
+  {
+    "vehicleId": "VW2020UP_GTI_19",
+    "vehicleSpecification": {
+      "derivative": "GTI 1.0 TSI",
+      "description": "A pocket-rocket performance version of the city car.",
+      "manufacturer": "Volkswagen",
+      "model": "Up!",
+      "modelYear": 2020,
+      "variant": "AA",
+      "bodyType": "Hatchback",
+      "fuelType": "Petrol",
+      "transmission": "Manual",
+      "engineSizeCc": 999,
+      "powerBhp": 115,
+      "color": "Tornado Red"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 10500,
+      "onTheRoadPrice": 16995.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "GB20UPG",
+      "dateOfFirstRegistration": "2020-04-10T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Lookers Volkswagen Walton-on-Thames",
+      "address": "New Zealand Avenue, Walton-on-Thames, KT12 1AS"
+    }
+  },
+  {
+    "vehicleId": "VW2020SHARAN_20",
+    "vehicleSpecification": {
+      "derivative": "SE Nav 2.0 TDI",
+      "description": "Large, practical MPV with sliding rear doors and 7 seats.",
+      "manufacturer": "Volkswagen",
+      "model": "Sharan",
+      "modelYear": 2020,
+      "variant": "Mk2",
+      "bodyType": "MPV",
+      "fuelType": "Diesel",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 1968,
+      "powerBhp": 150,
+      "color": "Urano Grey"
+    },
+    "physicalVehicle": {
+      "images": [],
+      "mileage": 13500,
+      "onTheRoadPrice": 27495.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "GB20MPV",
+      "dateOfFirstRegistration": "2020-10-14T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Robinsons Volkswagen Peterborough",
+      "address": "Westwood Business Park, Peterborough, PE3 9PN"
+    }
+  }
+]

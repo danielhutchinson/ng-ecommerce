@@ -23,11 +23,14 @@ import { Component } from '@angular/core';
   `,
   styles: `
     .cover-image {
-      background-image: url('/img/searchpage_banner.png');
+      background-image: 
+        linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%),
+        url('/img/searchpage_banner.png');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       height: 300px;
+      position: relative;
     }
   `,
 })
