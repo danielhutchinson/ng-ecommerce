@@ -5,9 +5,10 @@ import { SearchBanner } from './search-banner';
 import { VehicleGroup } from '../../types/vehicle';
 import { VehicleService } from '../../services/vehicle';
 import { StorefrontStore } from '../../storefront-store';
+import { VehicleCard } from '../../layout/vehicle-card/vehicle-card';
 @Component({
   selector: 'app-vehicle-search',
-  imports: [SearchBanner, JsonPipe],
+  imports: [SearchBanner, JsonPipe, VehicleCard],
   template: `
     <app-search-banner></app-search-banner>
 
@@ -19,6 +20,12 @@ import { StorefrontStore } from '../../storefront-store';
           rem quis provident velit omnis sed aperiam ducimus debitis soluta iusto odit a, quasi
           harum nisi tempora esse.
         </p>
+
+        <section>
+          @for (vehicle of vehicles(); track vehicle.vehicleId) {
+          <app-vehicle-card></app-vehicle-card>
+          }
+        </section>
         <pre>{{ vehicles() | json }}</pre>
       </section>
     </main>
