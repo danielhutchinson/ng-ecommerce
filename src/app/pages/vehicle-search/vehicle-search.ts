@@ -4,6 +4,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { SearchBanner } from './search-banner';
 import { VehicleGroup } from '../../types/vehicle';
 import { VehicleService } from '../../services/vehicle';
+import { StorefrontStore } from '../../storefront-store';
 @Component({
   selector: 'app-vehicle-search',
   imports: [SearchBanner, JsonPipe],
@@ -25,6 +26,6 @@ import { VehicleService } from '../../services/vehicle';
   styles: ``,
 })
 export class VehicleSearch {
-  vehicleService = inject(VehicleService);
-  vehicles = toSignal(this.vehicleService.searchVehicles());
+  store = inject(StorefrontStore);
+  vehicles = this.store.vehicles;
 }
