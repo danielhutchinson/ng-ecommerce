@@ -13,7 +13,7 @@ import { VehicleCard } from '../../layout/vehicle-card/vehicle-card';
     <main class="container mx-auto" role="main">
       <div class="flex flex-col lg:flex-row gap-6">
         <aside
-          class="lg:w-1/6 w-full border-r border-gray-300 rounded-md pt-12"
+          class="lg:w-1/6 w-full pr-4 border-r border-gray-300 rounded-md pt-12"
           role="complementary"
           aria-label="Filters and options"
         >
