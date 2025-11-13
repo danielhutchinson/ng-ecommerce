@@ -20,8 +20,11 @@ import { VehicleGroup } from '../../types/vehicle';
         <!-- Title and derivative grouped together with fixed height -->
         <div class="h-15 flex flex-col">
           <div>
-            <h3 class="text-lg font-bold line-clamp-2">
-              {{ vehicle().specification.manufacturer }} {{ vehicle().specification.model }}
+            <!-- <h4 class="text-gray-400 leading-relaxed">
+              {{ vehicle().specification.manufacturer }}
+            </h4> -->
+            <h3 class="text-lg font-bold line-clamp-2 leading-tight">
+              {{ vehicle().specification.model }}
             </h3>
           </div>
 
@@ -42,7 +45,7 @@ import { VehicleGroup } from '../../types/vehicle';
         </div>
 
         <div>
-          <p class="text-lg mb-3 truncate mb-2">
+          <p class="text-lg font-bold mb-3 truncate mb-2">
             {{ vehicle().physical.onTheRoadPrice | currency : 'GBP' : 'symbol' : '1.0-0' }}
           </p>
 
