@@ -63,7 +63,17 @@ import { VehicleGroup } from '../../types/vehicle';
       </div>
     </mat-card>
   `,
-  styles: ``,
+  styles: `
+    mat-card {
+      transition: transform 0.2s ease-in-out, box-shadow 0.1s ease-in-out;
+    }
+
+    mat-card:hover {
+      transform: scale(1.01);
+      box-shadow: var(--mat-sys-level2);
+      cursor: pointer;
+    }
+  `,
 })
 export class VehicleCard {
   vehicle = input.required<VehicleGroup>();
