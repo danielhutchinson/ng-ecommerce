@@ -11,7 +11,9 @@ import { VehicleCard } from '../../layout/vehicle-card/vehicle-card';
     <main class="container mx-auto py-4" role="main">
       <section aria-labelledby="content-heading">
         <h2 class="sr-only">Vehicle Search Results</h2>
-        <section>
+
+        <!-- Vehicle Cards Grid -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           @for (vehicle of vehicles(); track vehicle.vehicleId) {
           <app-vehicle-card [vehicle]="vehicle"></app-vehicle-card>
           }
