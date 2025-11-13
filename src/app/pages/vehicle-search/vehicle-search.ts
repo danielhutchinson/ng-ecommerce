@@ -1,9 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, inject, signal, Signal } from '@angular/core';
+import { JsonPipe } from '@angular/common';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { SearchBanner } from './search-banner';
-
+import { VehicleGroup } from '../../types/vehicle';
+import { VehicleService } from '../../services/vehicle';
 @Component({
   selector: 'app-vehicle-search',
-  imports: [SearchBanner],
+  imports: [SearchBanner, JsonPipe],
   template: `
     <app-search-banner></app-search-banner>
 
@@ -15,9 +18,13 @@ import { SearchBanner } from './search-banner';
           rem quis provident velit omnis sed aperiam ducimus debitis soluta iusto odit a, quasi
           harum nisi tempora esse.
         </p>
+        <pre>{{ vehicles() | json }}</pre>
       </section>
     </main>
   `,
   styles: ``,
 })
-export class VehicleSearch {}
+export class VehicleSearch {
+  vehicleService = inject(VehicleService);
+  vehicles = toSignal(this.vehicleService.searchVehicles());
+}
