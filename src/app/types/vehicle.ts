@@ -1,7 +1,7 @@
 export type VehicleGroup = {
   vehicleId: string;
   specification: VehicleSpecification;
-  physicalVehicle: VehiclePhysicalInformation;
+  physical: VehiclePhysicalInformation;
   marketingInformation: VehicleMarketingInformation;
   registrationInformation: VehicleRegistrationInformation;
   retailer: Retailer;
