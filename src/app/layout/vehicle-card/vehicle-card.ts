@@ -6,8 +6,7 @@ import { VehicleGroup } from '../../types/vehicle';
   selector: 'app-vehicle-card',
   imports: [MatCard, MatCardTitle],
   template: `
-    <mat-card class="h-80 w-full max-w-sm flex flex-col">
-      <!-- Fixed height image container -->
+    <mat-card class="h-80 w-full flex flex-col">
       <div class="h-48 overflow-hidden bg-gray-200 flex-shrink-0">
         <img
           src="/img/car_6.png"
@@ -16,7 +15,6 @@ import { VehicleGroup } from '../../types/vehicle';
         />
       </div>
 
-      <!-- Fixed height content area -->
       <div class="flex flex-col flex-grow p-4 justify-between">
         <div>
           <mat-card-title class="text-lg font-bold mb-2 line-clamp-2">
@@ -27,6 +25,10 @@ import { VehicleGroup } from '../../types/vehicle';
             {{ vehicle().specification.derivative }}
           </h3>
         </div>
+
+        <p>
+          {{ vehicle().specification.transmission }} {{ vehicle().specification.fuelType }} 2.0l
+        </p>
       </div>
     </mat-card>
   `,
