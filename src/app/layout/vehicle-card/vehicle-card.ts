@@ -8,7 +8,7 @@ import { VehicleGroup } from '../../types/vehicle';
   imports: [MatCard, MatCardTitle, CurrencyPipe, DatePipe],
   template: `
     <mat-card class="h-full w-full flex flex-col">
-      <div class="h-48 overflow-hidden bg-gray-200 flex-shrink-0">
+      <div class="h-48 flex-shrink-0 rounded-t-xl">
         <img
           src="/img/car_6.png"
           [alt]="vehicle().specification.manufacturer + ' ' + vehicle().specification.model"
