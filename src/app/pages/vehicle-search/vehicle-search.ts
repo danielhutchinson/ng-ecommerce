@@ -23,10 +23,9 @@ import { VehicleCard } from '../../layout/vehicle-card/vehicle-card';
 
         <section>
           @for (vehicle of vehicles(); track vehicle.vehicleId) {
-          <app-vehicle-card></app-vehicle-card>
+          <app-vehicle-card [vehicle]="vehicle"></app-vehicle-card>
           }
         </section>
-        <pre>{{ vehicles() | json }}</pre>
       </section>
     </main>
   `,

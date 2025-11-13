@@ -1,6 +1,6 @@
 export type VehicleGroup = {
   vehicleId: string;
-  vehicleSpecification: VehicleSpecification;
+  specification: VehicleSpecification;
   physicalVehicle: VehiclePhysicalInformation;
   marketingInformation: VehicleMarketingInformation;
   registrationInformation: VehicleRegistrationInformation;
@@ -37,6 +37,6 @@ export type VehicleRegistrationInformation = {
 };
 
 export type Retailer = {
-    name: string;
-    address: string;
+  name: string;
+  address: string;
 };

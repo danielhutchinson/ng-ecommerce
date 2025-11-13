@@ -1,7 +1,7 @@
 [
   {
     "vehicleId": "VW2020GOLF_R_01",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "R 2.0 TSI 4MOTION",
       "description": "High-performance all-wheel-drive hot-hatch, Mk7.5 generation.",
       "manufacturer": "Volkswagen",
@@ -15,7 +15,7 @@
       "powerBhp": 300,
       "color": "Lapiz Blue Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 19800,
       "onTheRoadPrice": 34995.0
@@ -33,7 +33,7 @@
   },
   {
     "vehicleId": "VW2020TIGUAN_02",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "R-Line Tech 2.0 TDI 4Motion",
       "description": "Top-tier trim level mid-size SUV with AWD.",
       "manufacturer": "Volkswagen",
@@ -47,7 +47,7 @@
       "powerBhp": 190,
       "color": "Deep Black Pearl Effect"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 21300,
       "onTheRoadPrice": 32750.0
@@ -65,7 +65,7 @@
   },
   {
     "vehicleId": "VW2020TROCCAB_03",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "R-Line 1.5 TSI Cabriolet",
       "description": "Convertible compact SUV, ideal for summer.",
       "manufacturer": "Volkswagen",
@@ -79,7 +79,7 @@
       "powerBhp": 150,
       "color": "Kings Red Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 5800,
       "onTheRoadPrice": 28990.0
@@ -97,7 +97,7 @@
   },
   {
     "vehicleId": "VW2020POLO_04",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "GTI+ 2.0 TSI",
       "description": "The performance version of the Polo supermini.",
       "manufacturer": "Volkswagen",
@@ -111,7 +111,7 @@
       "powerBhp": 200,
       "color": "Flash Red"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 10500,
       "onTheRoadPrice": 21500.0
@@ -129,7 +129,7 @@
   },
   {
     "vehicleId": "VW2020PASSAT_05",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "GTE Advance 1.4 TSI Plug-in Hybrid",
       "description": "Flagship saloon with a plug-in hybrid drivetrain.",
       "manufacturer": "Volkswagen",
@@ -143,7 +143,7 @@
       "powerBhp": 218,
       "color": "Atlantic Blue Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 16500,
       "onTheRoadPrice": 33500.0
@@ -161,7 +161,7 @@
   },
   {
     "vehicleId": "VW2020ARTEON_06",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "R-Line 2.0 TDI",
       "description": "Stylish, four-door fastback with a powerful diesel engine.",
       "manufacturer": "Volkswagen",
@@ -175,7 +175,7 @@
       "powerBhp": 190,
       "color": "Pyrite Silver Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 14100,
       "onTheRoadPrice": 31500.0
@@ -193,7 +193,7 @@
   },
   {
     "vehicleId": "VW2020TROC_07",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "Design 1.5 TSI",
       "description": "Compact crossover SUV with a distinctive design.",
       "manufacturer": "Volkswagen",
@@ -207,7 +207,7 @@
       "powerBhp": 150,
       "color": "Ravenna Blue Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 17800,
       "onTheRoadPrice": 21990.0
@@ -225,7 +225,7 @@
   },
   {
     "vehicleId": "VW2020TOUAREG_08",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "SEL Tech V6 TDI 4Motion",
       "description": "Luxury full-size SUV with a powerful V6 diesel engine and AWD.",
       "manufacturer": "Volkswagen",
@@ -239,7 +239,7 @@
       "powerBhp": 286,
       "color": "Silicon Grey Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 32000,
       "onTheRoadPrice": 48500.0
@@ -257,7 +257,7 @@
   },
   {
     "vehicleId": "VW2020UP_09",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "GTI 1.0 TSI",
       "description": "A popular 'pocket-rocket' city car.",
       "manufacturer": "Volkswagen",
@@ -271,7 +271,7 @@
       "powerBhp": 115,
       "color": "Tornado Red"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 10500,
       "onTheRoadPrice": 16995.0
@@ -289,7 +289,7 @@
   },
   {
     "vehicleId": "VW2020TCROSS_10",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "SE 1.0 TSI",
       "description": "Subcompact SUV, slightly smaller than the T-Roc.",
       "manufacturer": "Volkswagen",
@@ -303,7 +303,7 @@
       "powerBhp": 115,
       "color": "Energetic Orange Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 11500,
       "onTheRoadPrice": 21500.0
@@ -321,7 +321,7 @@
   },
   {
     "vehicleId": "VW2020ID3_11",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "1st Edition Pro Performance",
       "description": "Launch edition, fully electric hatchback.",
       "manufacturer": "Volkswagen",
@@ -335,7 +335,7 @@
       "powerBhp": 204,
       "color": "Moonstone Grey"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 8900,
       "onTheRoadPrice": 37990.0
@@ -353,7 +353,7 @@
   },
   {
     "vehicleId": "VW2020ID4_12",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "First Edition Pro Performance",
       "description": "Fully electric SUV, launch edition.",
       "manufacturer": "Volkswagen",
@@ -367,7 +367,7 @@
       "powerBhp": 204,
       "color": "Glacier White Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 12200,
       "onTheRoadPrice": 40995.0
@@ -385,7 +385,7 @@
   },
   {
     "vehicleId": "VW2020TIGUANALL_13",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "Allspace SE Nav 2.0 TDI",
       "description": "7-seater long-wheelbase SUV with a diesel engine.",
       "manufacturer": "Volkswagen",
@@ -399,7 +399,7 @@
       "powerBhp": 150,
       "color": "Indium Grey Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 25500,
       "onTheRoadPrice": 27990.0
@@ -417,7 +417,7 @@
   },
   {
     "vehicleId": "VW2020GOLFGTI_14",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "GTI Performance 2.0 TSI",
       "description": "Iconic performance hatchback with increased power.",
       "manufacturer": "Volkswagen",
@@ -431,7 +431,7 @@
       "powerBhp": 245,
       "color": "Pure Grey"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 17000,
       "onTheRoadPrice": 26500.0
@@ -449,7 +449,7 @@
   },
   {
     "vehicleId": "VW2020TROC_15",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "R 2.0 TSI 4Motion",
       "description": "High-performance version of the compact SUV.",
       "manufacturer": "Volkswagen",
@@ -463,7 +463,7 @@
       "powerBhp": 300,
       "color": "Pure White"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 15800,
       "onTheRoadPrice": 32995.0
@@ -481,7 +481,7 @@
   },
   {
     "vehicleId": "VW2020PASSATESTATE_16",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "R-Line 2.0 TDI Estate",
       "description": "Spacious and practical estate car with a diesel engine.",
       "manufacturer": "Volkswagen",
@@ -495,7 +495,7 @@
       "powerBhp": 150,
       "color": "Manganese Grey Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 22400,
       "onTheRoadPrice": 26300.0
@@ -513,7 +513,7 @@
   },
   {
     "vehicleId": "VW2020TOURAN_17",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "SE Family 1.5 TSI",
       "description": "7-seater MPV for families.",
       "manufacturer": "Volkswagen",
@@ -527,7 +527,7 @@
       "powerBhp": 150,
       "color": "Reflex Silver Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 28000,
       "onTheRoadPrice": 20990.0
@@ -545,7 +545,7 @@
   },
   {
     "vehicleId": "VW2020GOLF_18",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "GTD 2.0 TDI",
       "description": "The diesel performance version of the Golf hatchback.",
       "manufacturer": "Volkswagen",
@@ -559,7 +559,7 @@
       "powerBhp": 184,
       "color": "Deep Black Pearl Effect"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 15000,
       "onTheRoadPrice": 25995.0
@@ -577,7 +577,7 @@
   },
   {
     "vehicleId": "VW2020CADDY_19",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "Maxi Life 2.0 TDI",
       "description": "Large 7-seater MPV/Combi with a commercial vehicle base.",
       "manufacturer": "Volkswagen",
@@ -591,7 +591,7 @@
       "powerBhp": 102,
       "color": "Starlight Blue Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 29500,
       "onTheRoadPrice": 21990.0
@@ -609,7 +609,7 @@
   },
   {
     "vehicleId": "VW2020JETTA_20",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "SE 1.4 TSI",
       "description": "Compact Saloon.",
       "manufacturer": "Volkswagen",
@@ -623,7 +623,7 @@
       "powerBhp": 147,
       "color": "Tungsten Silver Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 15800,
       "onTheRoadPrice": 18995.0
@@ -641,7 +641,7 @@
   },
   {
     "vehicleId": "VW2020GOLF_E_19",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "e-Golf 35kWh",
       "description": "All-electric version of the Golf (pre-ID series).",
       "manufacturer": "Volkswagen",
@@ -655,7 +655,7 @@
       "powerBhp": 136,
       "color": "Urano Grey"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 18000,
       "onTheRoadPrice": 22995.0
@@ -673,7 +673,7 @@
   },
   {
     "vehicleId": "VW2020SHARAN_20",
-    "vehicleSpecification": {
+    "specification": {
       "derivative": "SE Nav 2.0 TDI",
       "description": "Large, highly practical MPV with sliding rear doors and 7 seats.",
       "manufacturer": "Volkswagen",
@@ -687,7 +687,7 @@
       "powerBhp": 150,
       "color": "Indium Grey Metallic"
     },
-    "physicalVehicle": {
+    "physical": {
       "images": [],
       "mileage": 13500,
       "onTheRoadPrice": 27495.0
@@ -701,6 +701,134 @@
     "retailer": {
       "name": "Robinsons Volkswagen Peterborough",
       "address": "Westwood Business Park, Peterborough, PE3 9PN"
+    }
+  },
+  {
+    "vehicleId": "VW2020TIGUAN_21",
+    "specification": {
+      "derivative": "Match 1.5 TSI",
+      "description": "Well-equipped mid-range compact SUV.",
+      "manufacturer": "Volkswagen",
+      "model": "Tiguan",
+      "modelYear": 2020,
+      "variant": "Mk2",
+      "bodyType": "SUV",
+      "fuelType": "Petrol",
+      "transmission": "Manual",
+      "engineSizeCc": 1498,
+      "powerBhp": 150,
+      "color": "Tungsten Silver Metallic"
+    },
+    "physical": {
+      "images": [],
+      "mileage": 12500,
+      "onTheRoadPrice": 24500.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "NA20MTCH",
+      "dateOfFirstRegistration": "2020-04-20T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Lookers Volkswagen Glasgow",
+      "address": "157 Bogmoor Road, Glasgow, G51 4TQ"
+    }
+  },
+  {
+    "vehicleId": "VW2020POLO_22",
+    "specification": {
+      "derivative": "R-Line 1.0 TSI",
+      "description": "Sporty-styled supermini with an efficient petrol engine.",
+      "manufacturer": "Volkswagen",
+      "model": "Polo",
+      "modelYear": 2020,
+      "variant": "Mk6",
+      "bodyType": "Hatchback",
+      "fuelType": "Petrol",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 999,
+      "powerBhp": 115,
+      "color": "Deep Black Pearl Effect"
+    },
+    "physical": {
+      "images": [],
+      "mileage": 9200,
+      "onTheRoadPrice": 18750.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "BA70RLN",
+      "dateOfFirstRegistration": "2020-09-01T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Lookers Volkswagen Battersea",
+      "address": "92 York Road, London, SW11 3RD"
+    }
+  },
+  {
+    "vehicleId": "VW2020UP_23",
+    "specification": {
+      "derivative": "Black Edition 1.0",
+      "description": "Special edition city car with black styling accents.",
+      "manufacturer": "Volkswagen",
+      "model": "Up!",
+      "modelYear": 2020,
+      "variant": "AA",
+      "bodyType": "Hatchback",
+      "fuelType": "Petrol",
+      "transmission": "Manual",
+      "engineSizeCc": 999,
+      "powerBhp": 60,
+      "color": "Black"
+    },
+    "physical": {
+      "images": [],
+      "mileage": 7500,
+      "onTheRoadPrice": 11500.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "EA20BLK",
+      "dateOfFirstRegistration": "2020-03-10T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "South Hereford Volkswagen",
+      "address": "Aylestone Hill, Hereford, HR1 1JJ"
+    }
+  },
+  {
+    "vehicleId": "VW2020TROC_24",
+    "specification": {
+      "derivative": "SEL 2.0 TDI",
+      "description": "High-spec diesel T-Roc with luxury features.",
+      "manufacturer": "Volkswagen",
+      "model": "T-Roc",
+      "modelYear": 2020,
+      "variant": "Mk1",
+      "bodyType": "SUV",
+      "fuelType": "Diesel",
+      "transmission": "Automatic (DSG)",
+      "engineSizeCc": 1968,
+      "powerBhp": 150,
+      "color": "Indium Grey Metallic"
+    },
+    "physical": {
+      "images": [],
+      "mileage": 19000,
+      "onTheRoadPrice": 25990.0
+    },
+    "marketingInformation": {},
+    "registrationInformation": {
+      "registrationNumber": "MA70SEL",
+      "dateOfFirstRegistration": "2020-10-01T00:00:00.000Z",
+      "countryCodeOfRegistration": "GB"
+    },
+    "retailer": {
+      "name": "Lookers Volkswagen Guildford",
+      "address": "Moorfield Road, Guildford, Surrey, GU1 1RU"
     }
   }
 ]
