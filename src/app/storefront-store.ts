@@ -1,8 +1,8 @@
 import { inject } from '@angular/core';
 import { VehicleGroup } from './types/vehicle';
 import { patchState, signalStore, withHooks, withMethods, withState } from '@ngrx/signals';
-import { HttpClient } from '@angular/common/http';
 import { lastValueFrom } from 'rxjs';
+import { VehicleService } from './services/vehicle-service';
 
 export type StorefrontState = {
   vehicles: VehicleGroup[];
@@ -19,12 +19,12 @@ export const initialState: StorefrontState = {
 export const StorefrontStore = signalStore(
   { providedIn: 'root' },
   withState(initialState),
-  withMethods((store, http = inject(HttpClient)) => ({
+  withMethods((store, vehicleService = inject(VehicleService)) => ({
     async loadVehicles() {
       patchState(store, { isLoading: true });
 
       try {
-        const vehicles = await lastValueFrom(http.get<VehicleGroup[]>('/data/vehicles.json'));
+        const vehicles = await lastValueFrom(vehicleService.loadAllPaged(1));
         patchState(store, { vehicles: vehicles.slice(0, 6), isLoading: false });
       } catch (error) {
         patchState(store, { isLoading: false, error: error as Error });
