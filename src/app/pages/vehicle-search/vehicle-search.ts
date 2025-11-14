@@ -3,7 +3,7 @@ import { MatNavList, MatListItem } from '@angular/material/list';
 import { MatIcon } from '@angular/material/icon';
 import { SearchBanner } from './search-banner';
 import { StorefrontStore } from '../../storefront-store';
-import { VehicleCard } from '../../layout/vehicle-card/vehicle-card';
+import { VehicleCard } from '../../ui/patterns/vehicle-card/vehicle-card';
 @Component({
   selector: 'app-vehicle-search',
   imports: [SearchBanner, VehicleCard, MatNavList, MatListItem, MatIcon],
