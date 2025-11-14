@@ -3,9 +3,10 @@ import { SearchBanner } from './search-banner';
 import { StorefrontStore } from '../../storefront-store';
 import { VehicleCard } from '../../ui/patterns/vehicle-card';
 import { SearchFilters } from './search-filters';
+import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-vehicle-search',
-  imports: [SearchBanner, VehicleCard, SearchFilters],
+  imports: [SearchBanner, VehicleCard, SearchFilters, RouterLink],
   template: `
     <app-search-banner></app-search-banner>
 
@@ -22,7 +23,10 @@ import { SearchFilters } from './search-filters';
         <section class="lg:w-5/6 w-full pt-12" aria-label="Vehicle search results">
           <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-12">
             @for (vehicle of vehicles(); track vehicle.vehicleId) {
-            <app-vehicle-card [vehicle]="vehicle"></app-vehicle-card>
+            <app-vehicle-card
+              [vehicle]="vehicle"
+              [routerLink]="['/vehicle', vehicle.vehicleId]"
+            ></app-vehicle-card>
             }
           </div>
         </section>
