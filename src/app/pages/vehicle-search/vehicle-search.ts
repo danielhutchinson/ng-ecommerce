@@ -1,7 +1,7 @@
 import { Component, inject, signal, Signal } from '@angular/core';
 import { SearchBanner } from './search-banner';
 import { StorefrontStore } from '../../storefront-store';
-import { VehicleCard } from '../../ui/patterns/vehicle-card/vehicle-card';
+import { VehicleCard } from '../../ui/patterns/vehicle-card';
 import { SearchFilters } from './search-filters';
 @Component({
   selector: 'app-vehicle-search',

@@ -1,7 +1,7 @@
 import { Component, input } from '@angular/core';
 import { MatCard } from '@angular/material/card';
 import { CurrencyPipe, DatePipe } from '@angular/common';
-import { VehicleGroup } from '../../../types/vehicle';
+import { VehicleGroup } from '../../types/vehicle';
 
 @Component({
   selector: 'app-vehicle-card',
