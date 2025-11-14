@@ -20,7 +20,7 @@ import { SearchFilters } from './search-filters';
         </aside>
 
         <section class="lg:w-5/6 w-full pt-12" aria-label="Vehicle search results">
-          <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-12">
+          <div class="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 gap-12">
             @for (vehicle of vehicles(); track vehicle.vehicleId) {
             <app-vehicle-card [vehicle]="vehicle"></app-vehicle-card>
             }

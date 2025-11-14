@@ -35,7 +35,7 @@ import { VehicleGroup } from '../../types/vehicle';
           <p class="flex gap-3 text-sm truncate">
             <span>{{ vehicle().specification.transmission }}</span>
             <span>{{ vehicle().specification.fuelType }}</span>
-            <span>2.0l</span>
+            <span>{{ vehicle().physical.engineSizeLiters }}L</span>
           </p>
         </div>
 

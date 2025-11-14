@@ -11,6 +11,8 @@ export type VehiclePhysicalInformation = {
   images: string[];
   mileage: number;
   onTheRoadPrice: number;
+  powerBhp: number;
+  engineSizeLiters: number;
 };
 
 export type VehicleSpecification = {
@@ -23,8 +25,6 @@ export type VehicleSpecification = {
   bodyType: string;
   fuelType: string;
   transmission: string;
-  engineSizeCc: number;
-  powerBhp: number;
   color: string;
 };
 

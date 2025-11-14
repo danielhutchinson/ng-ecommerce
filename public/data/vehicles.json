@@ -11,14 +11,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Petrol",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1984,
-      "powerBhp": 300,
       "color": "Lapiz Blue Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 19800,
-      "onTheRoadPrice": 34995.0
+      "onTheRoadPrice": 34995.0,
+      "powerBhp": 300,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -43,14 +43,14 @@
       "bodyType": "SUV",
       "fuelType": "Diesel",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1968,
-      "powerBhp": 190,
       "color": "Deep Black Pearl Effect"
     },
     "physical": {
       "images": [],
       "mileage": 21300,
-      "onTheRoadPrice": 32750.0
+      "onTheRoadPrice": 32750.0,
+      "powerBhp": 190,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -75,14 +75,14 @@
       "bodyType": "Convertible",
       "fuelType": "Petrol",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1498,
-      "powerBhp": 150,
       "color": "Kings Red Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 5800,
-      "onTheRoadPrice": 28990.0
+      "onTheRoadPrice": 28990.0,
+      "powerBhp": 150,
+      "engineSizeLiters": 1.5
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -107,14 +107,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Petrol",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1984,
-      "powerBhp": 200,
       "color": "Flash Red"
     },
     "physical": {
       "images": [],
       "mileage": 10500,
-      "onTheRoadPrice": 21500.0
+      "onTheRoadPrice": 21500.0,
+      "powerBhp": 200,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -139,14 +139,14 @@
       "bodyType": "Saloon",
       "fuelType": "Hybrid (PHEV)",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1395,
-      "powerBhp": 218,
       "color": "Atlantic Blue Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 16500,
-      "onTheRoadPrice": 33500.0
+      "onTheRoadPrice": 33500.0,
+      "powerBhp": 218,
+      "engineSizeLiters": 1.4
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -171,14 +171,14 @@
       "bodyType": "Fastback",
       "fuelType": "Diesel",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1968,
-      "powerBhp": 190,
       "color": "Pyrite Silver Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 14100,
-      "onTheRoadPrice": 31500.0
+      "onTheRoadPrice": 31500.0,
+      "powerBhp": 190,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -203,14 +203,14 @@
       "bodyType": "SUV",
       "fuelType": "Petrol",
       "transmission": "Manual",
-      "engineSizeCc": 1498,
-      "powerBhp": 150,
       "color": "Ravenna Blue Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 17800,
-      "onTheRoadPrice": 21990.0
+      "onTheRoadPrice": 21990.0,
+      "powerBhp": 150,
+      "engineSizeLiters": 1.5
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -235,14 +235,14 @@
       "bodyType": "SUV",
       "fuelType": "Diesel",
       "transmission": "Automatic (Tiptronic)",
-      "engineSizeCc": 2967,
-      "powerBhp": 286,
       "color": "Silicon Grey Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 32000,
-      "onTheRoadPrice": 48500.0
+      "onTheRoadPrice": 48500.0,
+      "powerBhp": 286,
+      "engineSizeLiters": 3.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -267,14 +267,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Petrol",
       "transmission": "Manual",
-      "engineSizeCc": 999,
-      "powerBhp": 115,
       "color": "Tornado Red"
     },
     "physical": {
       "images": [],
       "mileage": 10500,
-      "onTheRoadPrice": 16995.0
+      "onTheRoadPrice": 16995.0,
+      "powerBhp": 115,
+      "engineSizeLiters": 1.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -299,14 +299,14 @@
       "bodyType": "SUV",
       "fuelType": "Petrol",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 999,
-      "powerBhp": 115,
       "color": "Energetic Orange Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 11500,
-      "onTheRoadPrice": 21500.0
+      "onTheRoadPrice": 21500.0,
+      "powerBhp": 115,
+      "engineSizeLiters": 1.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -331,14 +331,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Electric",
       "transmission": "Automatic (Single Speed)",
-      "engineSizeCc": 0,
-      "powerBhp": 204,
       "color": "Moonstone Grey"
     },
     "physical": {
       "images": [],
       "mileage": 8900,
-      "onTheRoadPrice": 37990.0
+      "onTheRoadPrice": 37990.0,
+      "powerBhp": 204,
+      "engineSizeLiters": 0.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -363,14 +363,14 @@
       "bodyType": "SUV",
       "fuelType": "Electric",
       "transmission": "Automatic (Single Speed)",
-      "engineSizeCc": 0,
-      "powerBhp": 204,
       "color": "Glacier White Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 12200,
-      "onTheRoadPrice": 40995.0
+      "onTheRoadPrice": 40995.0,
+      "powerBhp": 204,
+      "engineSizeLiters": 0.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -395,14 +395,14 @@
       "bodyType": "SUV",
       "fuelType": "Diesel",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1968,
-      "powerBhp": 150,
       "color": "Indium Grey Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 25500,
-      "onTheRoadPrice": 27990.0
+      "onTheRoadPrice": 27990.0,
+      "powerBhp": 150,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -427,14 +427,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Petrol",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1984,
-      "powerBhp": 245,
       "color": "Pure Grey"
     },
     "physical": {
       "images": [],
       "mileage": 17000,
-      "onTheRoadPrice": 26500.0
+      "onTheRoadPrice": 26500.0,
+      "powerBhp": 245,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -459,14 +459,14 @@
       "bodyType": "SUV",
       "fuelType": "Petrol",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1984,
-      "powerBhp": 300,
       "color": "Pure White"
     },
     "physical": {
       "images": [],
       "mileage": 15800,
-      "onTheRoadPrice": 32995.0
+      "onTheRoadPrice": 32995.0,
+      "powerBhp": 300,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -491,14 +491,14 @@
       "bodyType": "Estate",
       "fuelType": "Diesel",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1968,
-      "powerBhp": 150,
       "color": "Manganese Grey Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 22400,
-      "onTheRoadPrice": 26300.0
+      "onTheRoadPrice": 26300.0,
+      "powerBhp": 150,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -523,14 +523,14 @@
       "bodyType": "MPV",
       "fuelType": "Petrol",
       "transmission": "Manual",
-      "engineSizeCc": 1498,
-      "powerBhp": 150,
       "color": "Reflex Silver Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 28000,
-      "onTheRoadPrice": 20990.0
+      "onTheRoadPrice": 20990.0,
+      "powerBhp": 150,
+      "engineSizeLiters": 1.5
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -555,14 +555,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Diesel",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1968,
-      "powerBhp": 184,
       "color": "Deep Black Pearl Effect"
     },
     "physical": {
       "images": [],
       "mileage": 15000,
-      "onTheRoadPrice": 25995.0
+      "onTheRoadPrice": 25995.0,
+      "powerBhp": 184,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -587,14 +587,14 @@
       "bodyType": "MPV",
       "fuelType": "Diesel",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1968,
-      "powerBhp": 102,
       "color": "Starlight Blue Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 29500,
-      "onTheRoadPrice": 21990.0
+      "onTheRoadPrice": 21990.0,
+      "powerBhp": 102,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -619,14 +619,14 @@
       "bodyType": "Saloon",
       "fuelType": "Petrol",
       "transmission": "Manual",
-      "engineSizeCc": 1395,
-      "powerBhp": 147,
       "color": "Tungsten Silver Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 15800,
-      "onTheRoadPrice": 18995.0
+      "onTheRoadPrice": 18995.0,
+      "powerBhp": 147,
+      "engineSizeLiters": 1.4
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -651,14 +651,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Electric",
       "transmission": "Automatic (Single Speed)",
-      "engineSizeCc": 0,
-      "powerBhp": 136,
       "color": "Urano Grey"
     },
     "physical": {
       "images": [],
       "mileage": 18000,
-      "onTheRoadPrice": 22995.0
+      "onTheRoadPrice": 22995.0,
+      "powerBhp": 136,
+      "engineSizeLiters": 0.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -683,14 +683,14 @@
       "bodyType": "MPV",
       "fuelType": "Diesel",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1968,
-      "powerBhp": 150,
       "color": "Indium Grey Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 13500,
-      "onTheRoadPrice": 27495.0
+      "onTheRoadPrice": 27495.0,
+      "powerBhp": 150,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -715,14 +715,14 @@
       "bodyType": "SUV",
       "fuelType": "Petrol",
       "transmission": "Manual",
-      "engineSizeCc": 1498,
-      "powerBhp": 150,
       "color": "Tungsten Silver Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 12500,
-      "onTheRoadPrice": 24500.0
+      "onTheRoadPrice": 24500.0,
+      "powerBhp": 150,
+      "engineSizeLiters": 1.5
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -747,14 +747,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Petrol",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 999,
-      "powerBhp": 115,
       "color": "Deep Black Pearl Effect"
     },
     "physical": {
       "images": [],
       "mileage": 9200,
-      "onTheRoadPrice": 18750.0
+      "onTheRoadPrice": 18750.0,
+      "powerBhp": 115,
+      "engineSizeLiters": 1.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -779,14 +779,14 @@
       "bodyType": "Hatchback",
       "fuelType": "Petrol",
       "transmission": "Manual",
-      "engineSizeCc": 999,
-      "powerBhp": 60,
       "color": "Black"
     },
     "physical": {
       "images": [],
       "mileage": 7500,
-      "onTheRoadPrice": 11500.0
+      "onTheRoadPrice": 11500.0,
+      "powerBhp": 60,
+      "engineSizeLiters": 1.0
     },
     "marketingInformation": {},
     "registrationInformation": {
@@ -811,14 +811,14 @@
       "bodyType": "SUV",
       "fuelType": "Diesel",
       "transmission": "Automatic (DSG)",
-      "engineSizeCc": 1968,
-      "powerBhp": 150,
       "color": "Indium Grey Metallic"
     },
     "physical": {
       "images": [],
       "mileage": 19000,
-      "onTheRoadPrice": 25990.0
+      "onTheRoadPrice": 25990.0,
+      "powerBhp": 150,
+      "engineSizeLiters": 2.0
     },
     "marketingInformation": {},
     "registrationInformation": {
