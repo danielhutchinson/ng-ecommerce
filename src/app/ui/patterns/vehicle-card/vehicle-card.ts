@@ -17,12 +17,8 @@ import { VehicleGroup } from '../../../types/vehicle';
       </div>
 
       <div class="flex flex-col p-4 flex-grow">
-        <!-- Title and derivative grouped together with fixed height -->
         <div class="h-15 flex flex-col">
           <div>
-            <!-- <h4 class="text-gray-400 leading-relaxed">
-              {{ vehicle().specification.manufacturer }}
-            </h4> -->
             <h3 class="text-lg font-bold line-clamp-2 leading-tight">
               {{ vehicle().specification.model }}
             </h3>
@@ -35,7 +31,6 @@ import { VehicleGroup } from '../../../types/vehicle';
           </div>
         </div>
 
-        <!-- Specifications -->
         <div class="h-full my-2 flex items-center">
           <p class="flex gap-3 text-sm truncate">
             <span>{{ vehicle().specification.transmission }}</span>
