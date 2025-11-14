@@ -1,12 +1,11 @@
 import { Component, input } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import { MatCard } from '@angular/material/card';
 import { CurrencyPipe, DatePipe } from '@angular/common';
 import { VehicleGroup } from '../../types/vehicle';
 
 @Component({
   selector: 'app-vehicle-card',
-  imports: [MatCard, CurrencyPipe, DatePipe, RouterLink],
+  imports: [MatCard, CurrencyPipe, DatePipe],
   template: `
     <mat-card class="h-full w-full flex flex-col cursor-pointer hover:shadow-lg transition-shadow">
       <div class="h-48 flex-shrink-0 rounded-t-xl">
