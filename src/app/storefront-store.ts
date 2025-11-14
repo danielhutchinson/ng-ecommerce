@@ -21,8 +21,14 @@ export const StorefrontStore = signalStore(
   withState(initialState),
   withMethods((store, http = inject(HttpClient)) => ({
     async loadVehicles() {
-      const vehicles = await lastValueFrom(http.get<VehicleGroup[]>('/data/vehicles.json'));
-      patchState(store, { vehicles: vehicles.slice(0, 6), isLoading: false, error: null });
+      patchState(store, { isLoading: true });
+
+      try {
+        const vehicles = await lastValueFrom(http.get<VehicleGroup[]>('/data/vehicles.json'));
+        patchState(store, { vehicles: vehicles.slice(0, 6), isLoading: false });
+      } catch (error) {
+        patchState(store, { isLoading: false, error: error as Error });
+      }
     },
   })),
   withHooks({
