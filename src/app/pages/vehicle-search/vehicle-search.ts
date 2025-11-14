@@ -1,12 +1,11 @@
 import { Component, inject, signal, Signal } from '@angular/core';
-import { MatNavList, MatListItem } from '@angular/material/list';
-import { MatIcon } from '@angular/material/icon';
 import { SearchBanner } from './search-banner';
 import { StorefrontStore } from '../../storefront-store';
 import { VehicleCard } from '../../ui/patterns/vehicle-card/vehicle-card';
+import { SearchFilters } from './search-filters';
 @Component({
   selector: 'app-vehicle-search',
-  imports: [SearchBanner, VehicleCard, MatNavList, MatListItem, MatIcon],
+  imports: [SearchBanner, VehicleCard, SearchFilters],
   template: `
     <app-search-banner></app-search-banner>
 
@@ -17,28 +16,10 @@ import { VehicleCard } from '../../ui/patterns/vehicle-card/vehicle-card';
           role="complementary"
           aria-label="Filters and options"
         >
-          <mat-nav-list class="pt-0">
-            <a mat-list-item>
-              <span matListItemTitle>Price Range</span>
-            </a>
-
-            <a mat-list-item>
-              <span matListItemTitle>Vehicle Type</span>
-            </a>
-
-            <a mat-list-item>
-              <span matListItemTitle>Fuel Type</span>
-            </a>
-
-            <a mat-list-item>
-              <span matListItemTitle>Mileage</span>
-            </a>
-          </mat-nav-list>
+          <app-search-filters></app-search-filters>
         </aside>
 
-        <section class="lg:w-5/6 w-full pt-12" aria-labelledby="content-heading">
-          <h2 class="sr-only">Vehicle Search Results</h2>
-
+        <section class="lg:w-5/6 w-full pt-12" aria-label="Vehicle search results">
           <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-12">
             @for (vehicle of vehicles(); track vehicle.vehicleId) {
             <app-vehicle-card [vehicle]="vehicle"></app-vehicle-card>
